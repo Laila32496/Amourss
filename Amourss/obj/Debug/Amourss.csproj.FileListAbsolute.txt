@@ -1,0 +1,335 @@
+C:\Users\Zawar\source\repos\Amourss\Amourss\bin\Amourss.dll.config
+C:\Users\Zawar\source\repos\Amourss\Amourss\bin\Amourss.dll
+C:\Users\Zawar\source\repos\Amourss\Amourss\bin\Amourss.pdb
+C:\Users\Zawar\source\repos\Amourss\Amourss\bin\roslyn\csc.exe
+C:\Users\Zawar\source\repos\Amourss\Amourss\bin\roslyn\csc.exe.config
+C:\Users\Zawar\source\repos\Amourss\Amourss\bin\roslyn\csc.rsp
+C:\Users\Zawar\source\repos\Amourss\Amourss\bin\roslyn\csi.exe
+C:\Users\Zawar\source\repos\Amourss\Amourss\bin\roslyn\csi.exe.config
+C:\Users\Zawar\source\repos\Amourss\Amourss\bin\roslyn\csi.rsp
+C:\Users\Zawar\source\repos\Amourss\Amourss\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Zawar\source\repos\Amourss\Amourss\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Zawar\source\repos\Amourss\Amourss\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Zawar\source\repos\Amourss\Amourss\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Zawar\source\repos\Amourss\Amourss\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Zawar\source\repos\Amourss\Amourss\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Zawar\source\repos\Amourss\Amourss\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Zawar\source\repos\Amourss\Amourss\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Zawar\source\repos\Amourss\Amourss\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Zawar\source\repos\Amourss\Amourss\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Zawar\source\repos\Amourss\Amourss\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Zawar\source\repos\Amourss\Amourss\bin\roslyn\System.AppContext.dll
+C:\Users\Zawar\source\repos\Amourss\Amourss\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Zawar\source\repos\Amourss\Amourss\bin\roslyn\System.Console.dll
+C:\Users\Zawar\source\repos\Amourss\Amourss\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Zawar\source\repos\Amourss\Amourss\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\Zawar\source\repos\Amourss\Amourss\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Zawar\source\repos\Amourss\Amourss\bin\roslyn\System.IO.Compression.dll
+C:\Users\Zawar\source\repos\Amourss\Amourss\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Zawar\source\repos\Amourss\Amourss\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Zawar\source\repos\Amourss\Amourss\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Zawar\source\repos\Amourss\Amourss\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Zawar\source\repos\Amourss\Amourss\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Zawar\source\repos\Amourss\Amourss\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Zawar\source\repos\Amourss\Amourss\bin\roslyn\System.Security.Claims.dll
+C:\Users\Zawar\source\repos\Amourss\Amourss\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Zawar\source\repos\Amourss\Amourss\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Zawar\source\repos\Amourss\Amourss\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Zawar\source\repos\Amourss\Amourss\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Zawar\source\repos\Amourss\Amourss\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Zawar\source\repos\Amourss\Amourss\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Zawar\source\repos\Amourss\Amourss\bin\roslyn\System.Threading.Thread.dll
+C:\Users\Zawar\source\repos\Amourss\Amourss\bin\roslyn\System.ValueTuple.dll
+C:\Users\Zawar\source\repos\Amourss\Amourss\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Zawar\source\repos\Amourss\Amourss\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Zawar\source\repos\Amourss\Amourss\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Zawar\source\repos\Amourss\Amourss\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Zawar\source\repos\Amourss\Amourss\bin\roslyn\vbc.exe
+C:\Users\Zawar\source\repos\Amourss\Amourss\bin\roslyn\vbc.exe.config
+C:\Users\Zawar\source\repos\Amourss\Amourss\bin\roslyn\vbc.rsp
+C:\Users\Zawar\source\repos\Amourss\Amourss\bin\roslyn\VBCSCompiler.exe
+C:\Users\Zawar\source\repos\Amourss\Amourss\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Zawar\source\repos\Amourss\Amourss\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Zawar\source\repos\Amourss\Amourss\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Zawar\source\repos\Amourss\Amourss\bin\System.Web.Helpers.dll
+C:\Users\Zawar\source\repos\Amourss\Amourss\bin\System.Web.Mvc.dll
+C:\Users\Zawar\source\repos\Amourss\Amourss\bin\System.Web.Razor.dll
+C:\Users\Zawar\source\repos\Amourss\Amourss\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Zawar\source\repos\Amourss\Amourss\bin\System.Web.Webpages.dll
+C:\Users\Zawar\source\repos\Amourss\Amourss\bin\System.Web.Webpages.Razor.dll
+C:\Users\Zawar\source\repos\Amourss\Amourss\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Zawar\source\repos\Amourss\Amourss\bin\System.Web.Razor.xml
+C:\Users\Zawar\source\repos\Amourss\Amourss\bin\System.Web.Webpages.xml
+C:\Users\Zawar\source\repos\Amourss\Amourss\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Zawar\source\repos\Amourss\Amourss\bin\System.Web.Webpages.Razor.xml
+C:\Users\Zawar\source\repos\Amourss\Amourss\bin\System.Web.Helpers.xml
+C:\Users\Zawar\source\repos\Amourss\Amourss\bin\System.Web.Mvc.xml
+C:\Users\Zawar\source\repos\Amourss\Amourss\obj\Debug\Amourss.csproj.CoreCompileInputs.cache
+C:\Users\Zawar\source\repos\Amourss\Amourss\obj\Debug\Amourss.csproj.CopyComplete
+C:\Users\Zawar\source\repos\Amourss\Amourss\obj\Debug\Amourss.dll
+C:\Users\Zawar\source\repos\Amourss\Amourss\obj\Debug\Amourss.pdb
+C:\Users\Zawar\source\repos\Amourss\Amourss\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\Zawar\source\repos\Amourss\Amourss\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\Zawar\source\repos\Amourss\Amourss\bin\Microsoft.Owin.dll
+C:\Users\Zawar\source\repos\Amourss\Amourss\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Zawar\source\repos\Amourss\Amourss\bin\Microsoft.Owin.Security.dll
+C:\Users\Zawar\source\repos\Amourss\Amourss\bin\Newtonsoft.Json.dll
+C:\Users\Zawar\source\repos\Amourss\Amourss\bin\Owin.dll
+C:\Users\Zawar\source\repos\Amourss\Amourss\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\Zawar\source\repos\Amourss\Amourss\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\Zawar\source\repos\Amourss\Amourss\bin\Microsoft.Owin.xml
+C:\Users\Zawar\source\repos\Amourss\Amourss\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Zawar\source\repos\Amourss\Amourss\bin\Microsoft.Owin.Security.xml
+C:\Users\Zawar\source\repos\Amourss\Amourss\bin\Newtonsoft.Json.xml
+C:\Users\Zawar\source\repos\Amourss\Amourss\obj\Debug\Amourss.csprojResolveAssemblyReference.cache
+C:\Users\Abdul Rouf\Desktop\Amourss\Amourss\obj\Debug\Amourss.csprojResolveAssemblyReference.cache
+C:\Users\Abdul Rouf\Desktop\Amourss\Amourss\obj\Debug\Amourss.csproj.CoreCompileInputs.cache
+C:\Users\Abdul Rouf\Desktop\Amourss\Amourss\obj\Debug\Amourss.dll
+C:\Users\Abdul Rouf\Desktop\Amourss\Amourss\obj\Debug\Amourss.pdb
+C:\Users\Abdul Rouf\Desktop\Amourss\Amourss\bin\Amourss.dll.config
+C:\Users\Abdul Rouf\Desktop\Amourss\Amourss\bin\Amourss.dll
+C:\Users\Abdul Rouf\Desktop\Amourss\Amourss\bin\Amourss.pdb
+C:\Users\Abdul Rouf\Desktop\Amourss\Amourss\bin\roslyn\csc.exe
+C:\Users\Abdul Rouf\Desktop\Amourss\Amourss\bin\roslyn\csc.exe.config
+C:\Users\Abdul Rouf\Desktop\Amourss\Amourss\bin\roslyn\csc.rsp
+C:\Users\Abdul Rouf\Desktop\Amourss\Amourss\bin\roslyn\csi.exe
+C:\Users\Abdul Rouf\Desktop\Amourss\Amourss\bin\roslyn\csi.exe.config
+C:\Users\Abdul Rouf\Desktop\Amourss\Amourss\bin\roslyn\csi.rsp
+C:\Users\Abdul Rouf\Desktop\Amourss\Amourss\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Abdul Rouf\Desktop\Amourss\Amourss\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Abdul Rouf\Desktop\Amourss\Amourss\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Abdul Rouf\Desktop\Amourss\Amourss\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Abdul Rouf\Desktop\Amourss\Amourss\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Abdul Rouf\Desktop\Amourss\Amourss\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Abdul Rouf\Desktop\Amourss\Amourss\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Abdul Rouf\Desktop\Amourss\Amourss\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Abdul Rouf\Desktop\Amourss\Amourss\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Abdul Rouf\Desktop\Amourss\Amourss\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Abdul Rouf\Desktop\Amourss\Amourss\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Abdul Rouf\Desktop\Amourss\Amourss\bin\roslyn\System.AppContext.dll
+C:\Users\Abdul Rouf\Desktop\Amourss\Amourss\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Abdul Rouf\Desktop\Amourss\Amourss\bin\roslyn\System.Console.dll
+C:\Users\Abdul Rouf\Desktop\Amourss\Amourss\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Abdul Rouf\Desktop\Amourss\Amourss\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\Abdul Rouf\Desktop\Amourss\Amourss\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Abdul Rouf\Desktop\Amourss\Amourss\bin\roslyn\System.IO.Compression.dll
+C:\Users\Abdul Rouf\Desktop\Amourss\Amourss\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Abdul Rouf\Desktop\Amourss\Amourss\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Abdul Rouf\Desktop\Amourss\Amourss\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Abdul Rouf\Desktop\Amourss\Amourss\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Abdul Rouf\Desktop\Amourss\Amourss\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Abdul Rouf\Desktop\Amourss\Amourss\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Abdul Rouf\Desktop\Amourss\Amourss\bin\roslyn\System.Security.Claims.dll
+C:\Users\Abdul Rouf\Desktop\Amourss\Amourss\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Abdul Rouf\Desktop\Amourss\Amourss\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Abdul Rouf\Desktop\Amourss\Amourss\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Abdul Rouf\Desktop\Amourss\Amourss\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Abdul Rouf\Desktop\Amourss\Amourss\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Abdul Rouf\Desktop\Amourss\Amourss\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Abdul Rouf\Desktop\Amourss\Amourss\bin\roslyn\System.Threading.Thread.dll
+C:\Users\Abdul Rouf\Desktop\Amourss\Amourss\bin\roslyn\System.ValueTuple.dll
+C:\Users\Abdul Rouf\Desktop\Amourss\Amourss\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Abdul Rouf\Desktop\Amourss\Amourss\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Abdul Rouf\Desktop\Amourss\Amourss\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Abdul Rouf\Desktop\Amourss\Amourss\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Abdul Rouf\Desktop\Amourss\Amourss\bin\roslyn\vbc.exe
+C:\Users\Abdul Rouf\Desktop\Amourss\Amourss\bin\roslyn\vbc.exe.config
+C:\Users\Abdul Rouf\Desktop\Amourss\Amourss\bin\roslyn\vbc.rsp
+C:\Users\Abdul Rouf\Desktop\Amourss\Amourss\bin\roslyn\VBCSCompiler.exe
+C:\Users\Abdul Rouf\Desktop\Amourss\Amourss\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Abdul Rouf\Desktop\Amourss\Amourss\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\Abdul Rouf\Desktop\Amourss\Amourss\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\Abdul Rouf\Desktop\Amourss\Amourss\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Abdul Rouf\Desktop\Amourss\Amourss\bin\Microsoft.Owin.dll
+C:\Users\Abdul Rouf\Desktop\Amourss\Amourss\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Abdul Rouf\Desktop\Amourss\Amourss\bin\Microsoft.Owin.Security.dll
+C:\Users\Abdul Rouf\Desktop\Amourss\Amourss\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Abdul Rouf\Desktop\Amourss\Amourss\bin\Newtonsoft.Json.dll
+C:\Users\Abdul Rouf\Desktop\Amourss\Amourss\bin\Owin.dll
+C:\Users\Abdul Rouf\Desktop\Amourss\Amourss\bin\System.Web.Helpers.dll
+C:\Users\Abdul Rouf\Desktop\Amourss\Amourss\bin\System.Web.Mvc.dll
+C:\Users\Abdul Rouf\Desktop\Amourss\Amourss\bin\System.Web.Razor.dll
+C:\Users\Abdul Rouf\Desktop\Amourss\Amourss\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Abdul Rouf\Desktop\Amourss\Amourss\bin\System.Web.Webpages.dll
+C:\Users\Abdul Rouf\Desktop\Amourss\Amourss\bin\System.Web.Webpages.Razor.dll
+C:\Users\Abdul Rouf\Desktop\Amourss\Amourss\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\Abdul Rouf\Desktop\Amourss\Amourss\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\Abdul Rouf\Desktop\Amourss\Amourss\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Abdul Rouf\Desktop\Amourss\Amourss\bin\Microsoft.Owin.xml
+C:\Users\Abdul Rouf\Desktop\Amourss\Amourss\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Abdul Rouf\Desktop\Amourss\Amourss\bin\Microsoft.Owin.Security.xml
+C:\Users\Abdul Rouf\Desktop\Amourss\Amourss\bin\Newtonsoft.Json.xml
+C:\Users\Abdul Rouf\Desktop\Amourss\Amourss\bin\System.Web.Razor.xml
+C:\Users\Abdul Rouf\Desktop\Amourss\Amourss\bin\System.Web.Webpages.xml
+C:\Users\Abdul Rouf\Desktop\Amourss\Amourss\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Abdul Rouf\Desktop\Amourss\Amourss\bin\System.Web.Webpages.Razor.xml
+C:\Users\Abdul Rouf\Desktop\Amourss\Amourss\bin\System.Web.Helpers.xml
+C:\Users\Abdul Rouf\Desktop\Amourss\Amourss\bin\System.Web.Mvc.xml
+C:\Users\Zawar\Desktop\Amourss\Amourss\bin\Amourss.dll.config
+C:\Users\Zawar\Desktop\Amourss\Amourss\bin\Amourss.dll
+C:\Users\Zawar\Desktop\Amourss\Amourss\bin\Amourss.pdb
+C:\Users\Zawar\Desktop\Amourss\Amourss\bin\roslyn\csc.exe
+C:\Users\Zawar\Desktop\Amourss\Amourss\bin\roslyn\csc.exe.config
+C:\Users\Zawar\Desktop\Amourss\Amourss\bin\roslyn\csc.rsp
+C:\Users\Zawar\Desktop\Amourss\Amourss\bin\roslyn\csi.exe
+C:\Users\Zawar\Desktop\Amourss\Amourss\bin\roslyn\csi.exe.config
+C:\Users\Zawar\Desktop\Amourss\Amourss\bin\roslyn\csi.rsp
+C:\Users\Zawar\Desktop\Amourss\Amourss\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Zawar\Desktop\Amourss\Amourss\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Zawar\Desktop\Amourss\Amourss\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Zawar\Desktop\Amourss\Amourss\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Zawar\Desktop\Amourss\Amourss\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Zawar\Desktop\Amourss\Amourss\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Zawar\Desktop\Amourss\Amourss\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Zawar\Desktop\Amourss\Amourss\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Zawar\Desktop\Amourss\Amourss\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Zawar\Desktop\Amourss\Amourss\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Zawar\Desktop\Amourss\Amourss\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Zawar\Desktop\Amourss\Amourss\bin\roslyn\System.AppContext.dll
+C:\Users\Zawar\Desktop\Amourss\Amourss\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Zawar\Desktop\Amourss\Amourss\bin\roslyn\System.Console.dll
+C:\Users\Zawar\Desktop\Amourss\Amourss\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Zawar\Desktop\Amourss\Amourss\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\Zawar\Desktop\Amourss\Amourss\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Zawar\Desktop\Amourss\Amourss\bin\roslyn\System.IO.Compression.dll
+C:\Users\Zawar\Desktop\Amourss\Amourss\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Zawar\Desktop\Amourss\Amourss\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Zawar\Desktop\Amourss\Amourss\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Zawar\Desktop\Amourss\Amourss\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Zawar\Desktop\Amourss\Amourss\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Zawar\Desktop\Amourss\Amourss\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Zawar\Desktop\Amourss\Amourss\bin\roslyn\System.Security.Claims.dll
+C:\Users\Zawar\Desktop\Amourss\Amourss\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Zawar\Desktop\Amourss\Amourss\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Zawar\Desktop\Amourss\Amourss\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Zawar\Desktop\Amourss\Amourss\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Zawar\Desktop\Amourss\Amourss\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Zawar\Desktop\Amourss\Amourss\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Zawar\Desktop\Amourss\Amourss\bin\roslyn\System.Threading.Thread.dll
+C:\Users\Zawar\Desktop\Amourss\Amourss\bin\roslyn\System.ValueTuple.dll
+C:\Users\Zawar\Desktop\Amourss\Amourss\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Zawar\Desktop\Amourss\Amourss\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Zawar\Desktop\Amourss\Amourss\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Zawar\Desktop\Amourss\Amourss\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Zawar\Desktop\Amourss\Amourss\bin\roslyn\vbc.exe
+C:\Users\Zawar\Desktop\Amourss\Amourss\bin\roslyn\vbc.exe.config
+C:\Users\Zawar\Desktop\Amourss\Amourss\bin\roslyn\vbc.rsp
+C:\Users\Zawar\Desktop\Amourss\Amourss\bin\roslyn\VBCSCompiler.exe
+C:\Users\Zawar\Desktop\Amourss\Amourss\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Zawar\Desktop\Amourss\Amourss\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\Zawar\Desktop\Amourss\Amourss\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\Zawar\Desktop\Amourss\Amourss\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Zawar\Desktop\Amourss\Amourss\bin\Microsoft.Owin.dll
+C:\Users\Zawar\Desktop\Amourss\Amourss\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Zawar\Desktop\Amourss\Amourss\bin\Microsoft.Owin.Security.dll
+C:\Users\Zawar\Desktop\Amourss\Amourss\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Zawar\Desktop\Amourss\Amourss\bin\Newtonsoft.Json.dll
+C:\Users\Zawar\Desktop\Amourss\Amourss\bin\Owin.dll
+C:\Users\Zawar\Desktop\Amourss\Amourss\bin\System.Web.Helpers.dll
+C:\Users\Zawar\Desktop\Amourss\Amourss\bin\System.Web.Mvc.dll
+C:\Users\Zawar\Desktop\Amourss\Amourss\bin\System.Web.Razor.dll
+C:\Users\Zawar\Desktop\Amourss\Amourss\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Zawar\Desktop\Amourss\Amourss\bin\System.Web.Webpages.dll
+C:\Users\Zawar\Desktop\Amourss\Amourss\bin\System.Web.Webpages.Razor.dll
+C:\Users\Zawar\Desktop\Amourss\Amourss\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\Zawar\Desktop\Amourss\Amourss\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\Zawar\Desktop\Amourss\Amourss\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Zawar\Desktop\Amourss\Amourss\bin\Microsoft.Owin.xml
+C:\Users\Zawar\Desktop\Amourss\Amourss\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Zawar\Desktop\Amourss\Amourss\bin\Microsoft.Owin.Security.xml
+C:\Users\Zawar\Desktop\Amourss\Amourss\bin\Newtonsoft.Json.xml
+C:\Users\Zawar\Desktop\Amourss\Amourss\bin\System.Web.Razor.xml
+C:\Users\Zawar\Desktop\Amourss\Amourss\bin\System.Web.Webpages.xml
+C:\Users\Zawar\Desktop\Amourss\Amourss\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Zawar\Desktop\Amourss\Amourss\bin\System.Web.Webpages.Razor.xml
+C:\Users\Zawar\Desktop\Amourss\Amourss\bin\System.Web.Helpers.xml
+C:\Users\Zawar\Desktop\Amourss\Amourss\bin\System.Web.Mvc.xml
+C:\Users\Zawar\Desktop\Amourss\Amourss\obj\Debug\Amourss.csprojResolveAssemblyReference.cache
+C:\Users\Zawar\Desktop\Amourss\Amourss\obj\Debug\Amourss.csproj.CoreCompileInputs.cache
+C:\Users\Zawar\Desktop\Amourss\Amourss\obj\Debug\Amourss.csproj.CopyComplete
+C:\Users\Zawar\Desktop\Amourss\Amourss\obj\Debug\Amourss.dll
+C:\Users\Zawar\Desktop\Amourss\Amourss\obj\Debug\Amourss.pdb
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\bin\Amourss.dll.config
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\bin\Amourss.dll
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\bin\Amourss.pdb
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\bin\roslyn\csc.exe
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\bin\roslyn\csc.exe.config
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\bin\roslyn\csc.rsp
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\bin\roslyn\csi.exe
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\bin\roslyn\csi.exe.config
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\bin\roslyn\csi.rsp
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\bin\roslyn\System.AppContext.dll
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\bin\roslyn\System.Console.dll
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\bin\roslyn\System.IO.Compression.dll
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\bin\roslyn\System.Security.Claims.dll
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\bin\roslyn\System.Threading.Thread.dll
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\bin\roslyn\System.ValueTuple.dll
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\bin\roslyn\vbc.exe
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\bin\roslyn\vbc.exe.config
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\bin\roslyn\vbc.rsp
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\bin\roslyn\VBCSCompiler.exe
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\bin\Microsoft.Owin.dll
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\bin\Microsoft.Owin.Security.dll
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\bin\Newtonsoft.Json.dll
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\bin\Owin.dll
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\bin\System.Web.Helpers.dll
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\bin\System.Web.Mvc.dll
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\bin\System.Web.Razor.dll
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\bin\System.Web.Webpages.dll
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\bin\System.Web.Webpages.Razor.dll
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\bin\Microsoft.Owin.xml
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\bin\Microsoft.Owin.Security.xml
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\bin\Newtonsoft.Json.xml
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\bin\System.Web.Razor.xml
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\bin\System.Web.Webpages.xml
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\bin\System.Web.Webpages.Razor.xml
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\bin\System.Web.Helpers.xml
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\bin\System.Web.Mvc.xml
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\obj\Debug\Amourss.csprojResolveAssemblyReference.cache
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\obj\Debug\Amourss.csproj.CoreCompileInputs.cache
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\obj\Debug\Amourss.csproj.CopyComplete
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\obj\Debug\Amourss.dll
+C:\Users\Zawar\Desktop\New folder (4)\Amourss\Amourss\obj\Debug\Amourss.pdb

@@ -1,0 +1,594 @@
+﻿@model Amourss.Models.ViewModels.HomePage_VM
+@{
+    ViewBag.Title = "Index";
+}
+
+<style>
+    .row2 {
+        display: -webkit-box !important;
+        display: -webkit-flex !important;
+        display: -ms-flexbox !important;
+        display: flex !important;
+        flex-wrap: wrap !important;
+    }
+
+        .row2 > [class*='col-'] {
+            display: flex !important;
+            flex-direction: column !important;
+        }
+
+    .help-block {
+        height: 100%;
+    }
+
+
+    .banner-btn a {
+        background: rgb(236,199,49);
+        color: white;
+        border: none
+    }
+
+    .btn-bottom {
+        width: 150px;
+        position: absolute;
+        bottom: 0;
+        left: 110px;
+        right: 0;
+        text-align: center;
+    }
+
+ 
+
+</style>
+
+
+
+<div id="main">
+
+    <section class="rev_slider_wrapper banner-section">
+        <div class="rev_slider banner-slider">
+            <div id="rev_slider_1_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" style="margin:0px auto;background-color:#E9E9E9;padding:0px;margin-top:0px;margin-bottom:0px;max-height:600px;">
+                <!-- START REVOLUTION SLIDER 4.6.5 fullwidth mode -->
+                <div id="rev_slider_1_1" class="rev_slider fullwidthabanner" style="display:none;max-height:600px;height:600px;">
+                    <ul>
+                        @foreach (var element in Model.FeaturedCauses)
+                        {
+                            if (element.TextColor == "Black" && element.TextStyle == "Normal")
+                            {
+                                <li data-transition="random" data-slotamount="7" data-masterspeed="300" data-saveperformance="off">
+                                    <img src="@(!string.IsNullOrWhiteSpace(element.ImagePath) ? Url.Content(element.ImagePath) : "")" alt="slide-banner-011" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
+                                    <div class="tp-caption black sft tp-resizeme" data-x="4" data-y="70" data-speed="500" data-start="500" data-easing="Circ.easeOut" data-splitin="none" data-splitout="none" data-elementdelay="1" data-endelementdelay="0.1" data-endspeed="500" style="z-index: 5; max-width: auto; max-height: auto; white-space: nowrap;">
+                                        <span class="btn btn-bg">FEATURED CAUSE</span>
+                                    </div>
+                                    <div class="tp-caption black sft tp-resizeme" data-x="3" data-y="128" data-speed="800" data-start="800" data-easing="Circ.easeOut" data-splitin="none" data-splitout="none" data-elementdelay="2" data-endelementdelay="0.1" data-endspeed="800" style="z-index: 6; max-width: auto; max-height: auto; white-space: nowrap;">
+                                        <h2>
+                                            <strong>Donate &amp; Help</strong>
+                                            @element.Title
+                                        </h2>
+                                    </div>
+                                    <div class="tp-caption black sft tp-resizeme" data-x="5" data-y="278" data-speed="1000" data-start="1000" data-easing="Circ.easeOut" data-splitin="none" data-splitout="none" data-elementdelay="1" data-endelementdelay="0.1" data-end="700" data-endspeed="300" style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;">
+                                        <p> @element.Description </p>
+                                    </div>
+                                    <div class="tp-caption black sft tp-resizeme" data-x="6" data-y="394" data-speed="1200" data-start="1200" data-easing="Circ.easeOut" data-splitin="none" data-splitout="none" data-elementdelay="1" data-endelementdelay="0.1" data-endspeed="1200" style="z-index: 8; max-width: auto; max-height: auto; white-space: nowrap;">
+                                        <a href="@Url.Action("Donate", "Home")" class="btn btn-default charity-global-causes-301 charity-donation-button">DONATE NOW</a>
+                                    </div>
+                                </li>
+                            }
+                            else if (element.TextColor == "White" && element.TextStyle == "Box")
+                            {
+                                <li data-transition="random" data-slotamount="7" data-masterspeed="300" data-saveperformance="off" class="slide-2">
+                                    <img src="@(string.IsNullOrWhiteSpace(element.ImagePath)? "" : Url.Content(element.ImagePath))" alt="slide-banner-02" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
+                                    <div class="tp-caption black sfb tp-resizeme" data-x="10" data-y="355" data-speed="500" data-start="500" data-easing="easeOutCirc" data-splitin="none" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="500"
+                                         style="z-index: 5; max-width: auto; max-height: auto; white-space: nowrap;">
+                                        <div class="tp-caption sfb feature-btn "><span class="btn btn-warning btn-sm">FEATURED CAUSE</span></div>
+                                    </div>
+                                    <div class="tp-caption black sfb tp-resizeme"
+                                         data-x="9"
+                                         data-y="396"
+                                         data-speed="800"
+                                         data-start="800"
+                                         data-easing="easeOutCirc"
+                                         data-splitin="none"
+                                         data-splitout="none"
+                                         data-elementdelay="0.1"
+                                         data-endelementdelay="0.1"
+                                         data-endspeed="800"
+                                         style="z-index: 6; max-width: auto; max-height: auto; white-space: nowrap;">
+                                        <div class="trans-grey"></div>
+                                    </div>
+                                    <div class="tp-caption black sfb tp-resizeme"
+                                         data-x="45"
+                                         data-y="416"
+                                         data-speed="1500"
+                                         data-start="1500"
+                                         data-easing="easeOutCirc"
+                                         data-splitin="none"
+                                         data-splitout="none"
+                                         data-elementdelay="0.1"
+                                         data-endelementdelay="0.1"
+                                         data-endspeed="1500"
+                                         style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;">
+                                        <div class="tp-caption banner-heading bottom-animation text-white sfb">
+                                            <h2 class="h1"><strong>Donate &amp; Help</strong>@element.Title</h2>
+                                        </div>
+                                    </div>
+
+                                    <div class="tp-caption black sfb tp-resizeme"
+                                         data-x="50"
+                                         data-y="492"
+                                         data-speed="1700"
+                                         data-start="1700"
+                                         data-easing="easeOutCirc"
+                                         data-splitin="none"
+                                         data-splitout="none"
+                                         data-elementdelay="0.1"
+                                         data-endelementdelay="0.1"
+                                         data-endspeed="1700"
+                                         style="z-index: 8; max-width: auto; max-height: auto; white-space: nowrap;">
+                                        <div class="tp-caption sfb donate-button"> <a href="@Url.Action("Donate","Home")" class="btn btn-default charity-global-causes-301 charity-donation-button">DONATE NOW</a></div>
+                                    </div>
+                                </li>
+                            }
+                            else if (element.TextColor == "White" && element.TextStyle == "Normal")
+                            {
+                                <li data-transition="random" data-slotamount="7" data-masterspeed="300" data-saveperformance="off" class="slide-3">
+                                    <!-- MAIN IMAGE -->
+                                    <img src="@(string.IsNullOrWhiteSpace(element.ImagePath)? "" : Url.Content(element.ImagePath))" alt="slide-banner-03" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
+                                    <!-- LAYERS -->
+                                    <!-- LAYER NR. 1 -->
+                                    <div class="tp-caption black sft tp-resizeme"
+                                         data-x="1"
+                                         data-y="69"
+                                         data-speed="500"
+                                         data-start="500"
+                                         data-easing="easeOutCirc"
+                                         data-splitin="none"
+                                         data-splitout="none"
+                                         data-elementdelay="0.1"
+                                         data-endelementdelay="0.1"
+                                         data-endspeed="500"
+                                         style="z-index: 5; max-width: auto; max-height: auto; white-space: nowrap;">
+                                        <div class="tp-caption sft banner-feaure"><span class="btn btn-bg">FEATURED PROJECT</span></div>
+                                    </div>
+                                    <!-- LAYER NR. 2 -->
+                                    <div class="tp-caption black sft tp-resizeme"
+                                         data-x="0"
+                                         data-y="128"
+                                         data-speed="800"
+                                         data-start="800"
+                                         data-easing="easeOutCirc"
+                                         data-splitin="none"
+                                         data-splitout="none"
+                                         data-elementdelay="0.1"
+                                         data-endelementdelay="0.1"
+                                         data-endspeed="800"
+                                         style="z-index: 6; max-width: auto; max-height: auto; white-space: nowrap;">
+                                        <div class="tp-caption sft third-style banner-heading banner-title">
+                                            <h2><strong>Donate &amp; Help</strong>@element.Title</h2>
+                                        </div>
+                                    </div>
+                                    <!-- LAYER NR. 3 -->
+                                    <div class="tp-caption black sft tp-resizeme"
+                                         data-x="0"
+                                         data-y="221"
+                                         data-speed="1000"
+                                         data-start="1000"
+                                         data-easing="easeOutCirc"
+                                         data-splitin="none"
+                                         data-splitout="none"
+                                         data-elementdelay="0.1"
+                                         data-endelementdelay="0.1"
+                                         data-endspeed="1000"
+                                         style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;">
+                                        <div class="tp-caption sft third-style banner-summary banner-description">
+                                            <p>@element.Description</p>
+                                        </div>
+                                    </div>
+                                    <!-- LAYER NR. 4 -->
+                                    <div class="tp-caption black sft tp-resizeme"
+                                         data-x="0"
+                                         data-y="328"
+                                         data-speed="1200"
+                                         data-start="1200"
+                                         data-easing="easeOutCirc"
+                                         data-splitin="none"
+                                         data-splitout="none"
+                                         data-elementdelay="0.1"
+                                         data-endelementdelay="0.1"
+                                         data-endspeed="1200"
+                                         style="z-index: 8; max-width: auto; max-height: auto; white-space: nowrap;">
+                                        <div class="sft banner-btn"><a  href="@Url.Action("Donate", "Home")" data-target=".donate-form" class="btn btn-default">Donate NOW</a></div>
+                                    </div>
+                                </li>
+
+                            }
+                        }
+                    </ul>
+                    <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
+                </div>
+
+                <style scoped>
+                    .tp-caption.black, .black {
+                        color: #000000;
+                        text-shadow: none;
+                        background-color: transparent;
+                        text-decoration: none;
+                        border-width: 0px;
+                        border-color: rgb(0,0,0);
+                        border-style: none
+                    }
+                </style>
+                <script type="text/javascript">
+
+                    /******************************************
+                        -	PREPARE PLACEHOLDER FOR SLIDER	-
+                    ******************************************/
+
+
+                    var setREVStartSize = function () {
+                        var tpopt = new Object();
+                        tpopt.startwidth = 1150;
+                        tpopt.startheight = 600;
+                        tpopt.container = jQuery('#rev_slider_1_1');
+                        tpopt.fullScreen = "off";
+                        tpopt.forceFullWidth = "off";
+
+                        tpopt.container.closest(".rev_slider_wrapper").css({ height: tpopt.container.height() }); tpopt.width = parseInt(tpopt.container.width(), 0); tpopt.height = parseInt(tpopt.container.height(), 0); tpopt.bw = tpopt.width / tpopt.startwidth; tpopt.bh = tpopt.height / tpopt.startheight; if (tpopt.bh > tpopt.bw) tpopt.bh = tpopt.bw; if (tpopt.bh < tpopt.bw) tpopt.bw = tpopt.bh; if (tpopt.bw < tpopt.bh) tpopt.bh = tpopt.bw; if (tpopt.bh > 1) { tpopt.bw = 1; tpopt.bh = 1 } if (tpopt.bw > 1) { tpopt.bw = 1; tpopt.bh = 1 } tpopt.height = Math.round(tpopt.startheight * (tpopt.width / tpopt.startwidth)); if (tpopt.height > tpopt.startheight && tpopt.autoHeight != "on") tpopt.height = tpopt.startheight; if (tpopt.fullScreen == "on") { tpopt.height = tpopt.bw * tpopt.startheight; var cow = tpopt.container.parent().width(); var coh = jQuery(window).height(); if (tpopt.fullScreenOffsetContainer != undefined) { try { var offcontainers = tpopt.fullScreenOffsetContainer.split(","); jQuery.each(offcontainers, function (e, t) { coh = coh - jQuery(t).outerHeight(true); if (coh < tpopt.minFullScreenHeight) coh = tpopt.minFullScreenHeight }) } catch (e) { } } tpopt.container.parent().height(coh); tpopt.container.height(coh); tpopt.container.closest(".rev_slider_wrapper").height(coh); tpopt.container.closest(".forcefullwidth_wrapper_tp_banner").find(".tp-fullwidth-forcer").height(coh); tpopt.container.css({ height: "100%" }); tpopt.height = coh; } else { tpopt.container.height(tpopt.height); tpopt.container.closest(".rev_slider_wrapper").height(tpopt.height); tpopt.container.closest(".forcefullwidth_wrapper_tp_banner").find(".tp-fullwidth-forcer").height(tpopt.height); }
+                    };
+
+                    /* CALL PLACEHOLDER */
+                    setREVStartSize();
+
+
+                    var tpj = jQuery;
+                    tpj.noConflict();
+                    var revapi1;
+
+                    tpj(document).ready(function () {
+
+                        if (tpj('#rev_slider_1_1').revolution == undefined) {
+                            revslider_showDoubleJqueryError('#rev_slider_1_1');
+                        } else {
+                            revapi1 = tpj('#rev_slider_1_1').show().revolution(
+                                {
+                                    dottedOverlay: "none",
+                                    delay: 9000,
+                                    startwidth: 1150,
+                                    startheight: 600,
+                                    hideThumbs: 200,
+
+                                    thumbWidth: 100,
+                                    thumbHeight: 50,
+                                    thumbAmount: 3,
+
+
+                                    simplifyAll: "off",
+
+                                    navigationType: "bullet",
+                                    navigationArrows: "solo",
+                                    navigationStyle: "round",
+
+                                    touchenabled: "on",
+                                    onHoverStop: "on",
+                                    nextSlideOnWindowFocus: "off",
+
+                                    swipe_threshold: 0.7,
+                                    swipe_min_touches: 1,
+                                    drag_block_vertical: false,
+
+
+
+                                    keyboardNavigation: "off",
+
+                                    navigationHAlign: "center",
+                                    navigationVAlign: "bottom",
+                                    navigationHOffset: 0,
+                                    navigationVOffset: 42,
+
+                                    soloArrowLeftHalign: "left",
+                                    soloArrowLeftValign: "center",
+                                    soloArrowLeftHOffset: 20,
+                                    soloArrowLeftVOffset: 0,
+
+                                    soloArrowRightHalign: "right",
+                                    soloArrowRightValign: "center",
+                                    soloArrowRightHOffset: 20,
+                                    soloArrowRightVOffset: 0,
+
+                                    shadow: 0,
+                                    fullWidth: "on",
+                                    fullScreen: "off",
+
+                                    spinner: "spinner0",
+
+                                    stopLoop: "off",
+                                    stopAfterLoops: -1,
+                                    stopAtSlide: -1,
+
+                                    shuffle: "off",
+
+                                    autoHeight: "off",
+                                    forceFullWidth: "off",
+
+
+                                    hideTimerBar: "on",
+                                    hideThumbsOnMobile: "off",
+                                    hideNavDelayOnMobile: 1500,
+                                    hideBulletsOnMobile: "off",
+                                    hideArrowsOnMobile: "off",
+                                    hideThumbsUnderResolution: 0,
+
+                                    hideSliderAtLimit: 0,
+                                    hideCaptionAtLimit: 0,
+                                    hideAllCaptionAtLilmit: 0,
+                                    startWithSlide: 0
+                                });
+
+
+
+                        }
+                    });	/*ready*/
+
+                </script>
+
+            </div><!-- END REVOLUTION SLIDER -->
+        </div>
+    </section>
+    <!-- banner slider End Here -->
+    <!-- Our Causes Section Start Here-->
+    <section class="our-causes">
+        <div class="container">
+
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="page-header section-header clearfix">
+                        <h2><strong>Introduction</strong></h2>
+                    </div>
+                    <div class="article-list flexslider article-slider progressbar" style="font-size:15px">
+
+                        We, “Amour Just Love Not Sympathy Foundation ®” are a Pakistan based NGO working for the Betterment and Empowerment of Special Persons. Amour is a word; which means “LOVE”, Amour is practically working since 2008 but got registered in 2016 with a slogan “Just Love Not Sympathy”.  Amour is basically focusing on the Persons with Physical Disabilities.  The reason for this slogan was that such persons are very sensitive and feel depraved, neglected and inferior. Amour is providing a platform to such persons to properly grow and become useful, active and effective citizens. From this platform these persons can promote and prove their capabilities and talent. Amour is working for the empowerment of special persons through enhancing their skills, education, job placements and business opportunities. Amour welcomes the Philanthropic Community from all over the World to be a part of this noble cause.<b> In order to fulfill this noble cause and to complete our projects, we need financial assistance from national (domestic) and international donors i.e. individuals, group of persons, organizations, donor agencies, etc.</b>
+                        
+                    </div>
+          
+                </div>
+                <div class="col-md-12">
+                    <br />
+                    <center>
+                        <a href="@Url.Action("Donate", "Home")" class="btn btn-default  charity-donation-button">DONATE NOW</a>
+
+                    </center>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="page-header section-header clearfix">
+                        <h2>You can help lots of people by donating little. <strong>See our Projects</strong></h2>
+                    </div>
+                    <div class="article-list flexslider article-slider progressbar">
+                        <div class="row">
+                            <div class="col-sm-4 col-xs-12">
+                                <div class="items zoom">
+                                    <h3 class="h6">Technical Training</h3>
+                                    <p class="donation-summary">
+                                        To Establish various technical training program such as IT Technology Software development desktop publishing web designing.Arts & crafts, sewing & stitching and any others skill training program which can enables amputees to generate source of earning an honorable way.
+                                    </p>
+
+                                </div>
+                            </div>
+                            <div class="col-sm-4 col-xs-12">
+                                <div class="items zoom">
+                                    <h3 class="h6">Educational Training</h3>
+                                    <p class="donation-summary">
+                                        To Provide handicapped user-friendly education envoirment and provide best teacher who teach with your mentality level.To Provide teaching facilities such as Islamic education services such as Islamic law Hadith and Memorizing quran at the nearest locations and many of things.
+                                    </p>
+
+                                </div>
+                            </div>
+                            <div class="col-sm-4 col-xs-12">
+                                <div class="items zoom">
+                                    <h3 class="h6">Residential Aids</h3>
+                                    <p class="donation-summary">
+                                        To provide residential aids to amputees in shape of small homes, essential repair of their homes.To provide Special Washroom facilities while travelling on Motorway and GT Road or where ever are the rest places throughout the Pakistan.
+                                    </p>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                        <br />
+                        <div class="row row2">
+
+                            @foreach (var element in Model.FrontCauses)
+        {
+            double percent = ((element.EarningGoal - element.AchievedGoal) / element.EarningGoal) * 100;
+            if (double.IsNaN(percent))
+            {
+                percent = 0;
+            }
+                            <div class="col-sm-4 col-xs-12">
+                                <div class="items zoom">
+                                    <h3 class="h6">@element.Title</h3>
+                                    <a href="@Url.Action("ProjectDetails", "Home")" class="img-thumb">
+                                        <figure> <img width="600" height="400" src="@(string.IsNullOrWhiteSpace(element.ImagePath)? "" : Url.Content(element.ImagePath))" class="attachment-charity_causes_thumb wp-post-image" alt="img-slide-01" /> </figure>
+                                    </a>
+
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" data-aria-valuenow="@percent%" data-aria-valuemin="0" data-aria-valuemax="100" style="width: @percent&#37;">
+                                            <span class="progress-value">@percent% </span>
+                                        </div>
+                                    </div>
+                                    <span class="donation">
+                                        Donation :
+                                        <span class="value">
+                                            Rs @element.AchievedGoal<small>
+                                                /
+                                                Rs @element.EarningGoal
+                                            </small>
+                                        </span>
+                                    </span>
+                                    <p>
+                                    <p class="donation-summary">
+                                        @element.Description
+                                    </p>
+
+                                </div>
+                                <br/>
+                                <center>
+                                <a href="@Url.Action("Donate", "Home")" class="btn btn-default  charity-donation-button btn-bottom">DONATE NOW</a>
+                                    </center>
+                            </div>
+
+}
+                        </div>
+
+                        <br />
+                        <div class="row">
+                            <div class="col-sm-4 col-xs-12">
+                                <div class="items zoom">
+                                    <h3 class="h6">Empathy is better than Sympathy</h3>
+                                    <p class="donation-summary">
+                                        Exhibition held on 30th and 31st of January, 2018 under the projects of Amour Foundation in Pilac, Punjabi Complex in Qadafi Stadium Lahore Pakistan. Miss Sughran Sadaf (Govt Employee of Punjabi Cultural Society), Ma’am Azra Aftab (Actress), Major Sohail Sb, Almas Sb (Rotary Club) and many more honorable personalities were chief guests to encourage those special people there. Amour has arranged this exhibition in which Feature Articles ,  dresses , Shoes and many other handmade decoration pieces were presented for the earning of those disabled persons.
+                                    </p>
+
+                                </div>
+                            </div>
+                            <div class="col-sm-4 col-xs-12">
+                                <div class="items zoom">
+                                    <h3 class="h6">Just love Not Sympathies</h3>
+                                    <p class="donation-summary">
+                                        One day outdoor activity for AMOUR disable persons was organized with love and care in cooperation with McDonald’s Lahore.
+                                    </p>
+
+                                </div>
+                            </div>
+                            <div class="col-sm-4 col-xs-12">
+                                <div class="items zoom">
+                                    <h3 class="h6"></h3>
+                                    <p class="donation-summary">
+                                        Amour (NGO) organised one day free medical camp for the patients of Tuberculosis (TB), Hepatitis, and diabetic at Punjab small industry housing society DHA Lahore on Thursday morning. The camp was inaugurated by president Amour “Laila Tul Qaddar”  different specialist doctors Dr Munir Ghori (general physician) Govt shdra hospital, Dr Waqar, and Dr Ali (orthopedic surgeon) from Hameed Latif and shalamar hospital and their para medic staffs treated hundreds of patients according to theirs doctors prescription.
+                                    </p>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Our Causes Section End Here-->
+    <!-- How To Help Section Start Here -->
+    <section class="help-people">
+        <div class="container">
+            <header class="page-header section-header">
+                <h2> <strong>Why Us?</strong></h2>
+            </header>
+            <div class="row row2">
+
+                <div class="col-md-4">
+                    <div class="help-block">
+                        <h3>
+                            <a href="javascript:;"><img src="~/Images/WhyUs/box.png">NON-PROFIT BUSINESS FOR DISABLE PERSON</a>
+                        </h3>
+                        <p>struggle to point out and make sure to provide facilities for the handicapped on public like hospitals bus station or in different Government and non Government places ,organization and shopping mall ad banks and restaurant and offices.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="help-block">
+                        <h3>
+                            <a href="javascript:;"><img src="~/Images/WhyUs/med.PNG">MEDICAID / MEDICARE</a>
+                        </h3>
+                        <p>Leading policy efforts with Govt of Pakistan legislatures and health departments to educate decision makers on the importance of fair access to coverage of prosthetic devices in Medicaid programs making positive impact.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="help-block">
+                        <h3>
+
+                            <a href="javascript:;"><img src="~/Images/WhyUs/book.PNG">EDUCATIONAL MISSION</a>
+                        </h3>
+                        <p>Our educational mission is to teach all students to think clearly, to make relevant and valid judgments, to discriminate among values, and to communicate freely with others in the realm of ideas. We focus on developing humane instincts and disciplined, creative minds. To this end.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row row2">
+
+                <div class="col-md-4">
+                    <div class="help-block">
+                        <h3>
+                            <a href="javascript:;"><img src="~/Images/WhyUs/infinity.PNG">PROSTHETIC AND ORTHODONTIC FITTINGS</a>
+                        </h3>
+                        <p>To Provide Prosthetic and Orthodontic Fittings, Prosthetic and Orthodontic Fabrication Rehabilitation, Skill training programs, Career building counseling and assistance in terms of education and financial support. These components will enable amputees a new chance at an active lifestyle and they renewed opportunity to become productive members of society.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="help-block">
+                        <h3>
+
+                            <a href="javascript:;"><img src="~/Images/WhyUs/home.PNG">RESIDENTIAL AIDS</a>
+                        </h3>
+                        <p>To provide residential aids to amputees in shape of small homes, essential repair of their homes.To provide Special Washroom facilities while travelling on Motorway and GT Road or where ever are the rest places throughout the Pakistan.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="help-block">
+                        <h3>
+
+                            <a href="javascript:;"><img src="~/Images/WhyUs/Capture5.PNG">TRANSPORT AND RAMP FACILITIES</a>
+                        </h3>
+                        <p>To Provide special transport services such as try motor cycle and buses. To provide ramp facilities at different parks, malls and other public places where this type of people can go and move independently.To provide Remote Control & Manual Wheelchairs according to the International standard.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- How To Help Section End Here-->
+
+    <section class="latest-news ">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <header class="page-header section-header clearfix">
+                        <h2><strong>FEATURED WORK</strong></h2>
+                    </header>
+                    <div class="article-list row row2" style="position:relative">
+                        @foreach (var element in Model.FrontCauses)
+                        {
+                            <div class="items zoom col-xs-12 col-sm-4 charity-latest-news-home-one  charity-latest-news-shop">
+                                <a href="#/" class="img-thumb">
+                                    <figure>
+                                        <img src="@(string.IsNullOrWhiteSpace(element.ImagePath)? "" : Url.Content(element.ImagePath))" class="attachment-charity_causes_thumb wp-post-image" alt="blog-pic" width="600" height="400">
+                                    </figure>
+                                </a>
+                                <h3><a href="@Url.Action("Index","Home")">@element.Title</a></h3>
+                                <span class="date">@element.TimeStamp.ToString("dd MMM yyyy")</span>
+                                
+                                <p class="donation-summary">@element.Description</p>
+                                <br />
+                                <a class="more-link btn btn-default btn-bottom" href="@Url.Action("Project","Home")">READ MORE</a>
+                     
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+</div>

@@ -1,0 +1,39 @@
+﻿@using Amourss.Models.DBModels
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_AccountLayout.cshtml";
+    Setting st = ViewBag.Layout as Setting;
+}
+
+<div class="login-box">
+    <div class="login-logo">
+        <a href="@Url.Action("Login", "Account")"><b>@st.CompanyTitle</b></a>
+    </div>
+    <!-- /.login-logo -->
+    <div class="card">
+        <div class="card-body login-card-body">
+            <p class="login-box-msg">Sign in to start your session</p>
+            <form action="@Url.Action("Login", "Account")" method="post">
+                <div class="form-group has-feedback">
+                    <input type="email" class="form-control" name="Email" placeholder="Email">
+                    <span class="fa fa-envelope form-control-feedback"></span>
+                </div>
+                <div class="form-group has-feedback">
+                    <input type="password" name="Password" class="form-control" placeholder="Password">
+                    <span class="fa fa-lock form-control-feedback"></span>
+                </div>
+                <div class="row">
+                    <div class="col-8"></div>
+                    <!-- /.col -->
+                    <div class="col-4">
+                        <button type="submit" class="btn btn-primary btn-block btn-flat">Sign In</button>
+                    </div>
+                    <!-- /.col -->
+                </div>
+            </form>
+
+
+        </div>
+        <!-- /.login-card-body -->
+    </div>
+</div>

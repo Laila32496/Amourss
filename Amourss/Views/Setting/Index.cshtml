@@ -1,0 +1,199 @@
+﻿@model Amourss.Models.DBModels.Setting
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_PanelLayout.cshtml";
+}
+
+<div class="content-header">
+    <div class="container-fluid">
+        @*<div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1 class="m-0 text-dark">Projects</h1>
+                </div><!-- /.col -->
+            </div><!-- /.row -->*@
+    </div><!-- /.container-fluid -->
+</div>
+
+<section class="content">
+    <div class="container-fluid">
+        <div class="card card-default">
+            <div class="card-header">
+                <h3 class="card-title">Homepage Settings</h3>
+                <br />
+            </div>
+            <div class="card-body">
+                <form method="post" action="@Url.Action("AddSetting","Setting")" enctype="multipart/form-data">
+                    <input type="hidden" value="@Model.ID" name="ID" id="ID">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label>Company's Title</label>
+                                <input type="text" class="form-control" id="CompanyTitle" name="CompanyTitle" value="@Model.CompanyTitle" />
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label>Company's Subtitle</label>
+                                <input type="text" class="form-control" id="CompanySubTitle" name="CompanySubTitle" value="@Model.CompanySubTitle" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label>Company's Email</label>
+                                <input type="text" class="form-control" id="Email" name="Email" value="@Model.Email" />
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label>Company's Phone</label>
+                                <input type="text" class="form-control" id="Phone" name="Phone" value="@Model.Phone" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label>Company's Address</label>
+                                <input type="text" class="form-control" id="Address" name="Address" value="@Model.Address" />
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label>Location</label>
+                                <input type="text" class="form-control Location" id="Location" name="Location" value="@Model.Location" />
+                                <input type="hidden" value="@Model.Lat" id="Lat" name="Lat" />
+                                <input type="hidden" value="@Model.Lng" id="Lng" name="Lng" />
+
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label>Footer Description</label>
+                                <textarea type="text" class="form-control" id="footer" name="FooterDescription">@Model.FooterDescription</textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <hr />
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label>Facebook</label>
+                                <input type="text" class="form-control" id="Facebook" name="Facebook" value="@Model.Facebook" />
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label>Twitter</label>
+                                <input type="text" class="form-control" id="Twitter" name="Twitter" value="@Model.Twitter" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label>GooglePlus</label>
+                                <input type="text" class="form-control" id="GooglePlus" name="GooglePlus" value="@Model.GooglePlus" />
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label>Instagram</label>
+                                <input type="text" class="form-control" id="Instagram" name="Instagram" value="@Model.Instagram" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label>LinkedIn</label>
+                                <input type="text" class="form-control" id="LinkedIn" name="LinkedIn" value="@Model.LinkedIn" />
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label>Vimeo</label>
+                                <input type="text" class="form-control" id="Vimeo" name="Vimeo" value="@Model.Vimeo" />
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <hr />
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label>Logo 1 (Light)</label><br>
+                                <img src="@(!string.IsNullOrWhiteSpace(Model.LightLogoImage) ? Url.Content(Model.LightLogoImage) : "")" style="width:200px" id="LightLogoImageDisplay" /><br>
+                                <input type="file" id="LightLogo" name="LightLogo" data-src="#LightLogoImageDisplay" />
+                                <input type="hidden" name="LightLogoImage" id="LightLogoImage" value="@Model.LightLogoImage" />
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label>Logo 1 (Dark)</label><br>
+                                <img src="@(!string.IsNullOrWhiteSpace(Model.DarkLogoImage) ? Url.Content(Model.DarkLogoImage) : "")" style="width:200px" id="DarkLogoImageDisplay" /><br>
+                                <input type="file" id="DarkLogo" name="DarkLogo" data-src="#DarkLogoImageDisplay" />
+                                <input type="hidden" name="DarkLogoImage" id="DarkLogoImage" value="@Model.DarkLogoImage" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="btn btn-primary" type="submit" id="AddBtn">Update</button>
+                    <button class="btn btn-danger" type="button" id="CancelBtn" data-dismiss="modal">Cancel</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+</section>
+
+
+
+@section Scripts{
+
+    <script>
+
+        function initMap() {
+            var input = document.getElementsByClassName('Location');
+
+            $(input).each(function (index, value) {
+                console.log()
+                var autocomplete = new google.maps.places.Autocomplete(value);
+
+                google.maps.event.addListener(autocomplete, 'place_changed', function () {
+
+                    var elementid = $(value).attr("id");
+                    var place = autocomplete.getPlace();
+
+                    document.getElementById('Lat').value = place.geometry.location.lat();
+                    document.getElementById('Lng').value = place.geometry.location.lng();
+
+                    var lat = place.geometry.location.lat();
+                    var lng = place.geometry.location.lng();
+                  
+                });
+            });
+
+
+        }
+        
+
+        $("#AddSettingBtn").click(function () {
+            $("#AddSettingModal").modal("show");
+        });
+    </script>
+
+
+
+    @*<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCbZUwFdEjTihX11ogCFdFkN_FlyHlZ5TE&sensor=false&libraries=places"></script>*@
+
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCbZUwFdEjTihX11ogCFdFkN_FlyHlZ5TE&sensor=false&libraries=places&callback=initMap"></script>
+
+
+
+
+}

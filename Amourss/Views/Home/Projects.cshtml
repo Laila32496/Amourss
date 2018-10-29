@@ -1,0 +1,38 @@
+﻿@using Amourss.Models.DBModels
+@model List<Cause>
+@{
+    ViewBag.Title = "Projects";
+}
+
+<div class="content-wrapper" id="page-info">
+    <div class="container">
+
+        <section class="our-works row anim-section animate">
+            <div class="col-xs-12">
+
+                <div class="row">
+                    @foreach (var element in Model.Where(x => x.Featured == 1))
+                    {
+                        <div class="post-169 charity-our-works type-charity-our-works status-publish has-post-thumbnail hentry col-xs-12 col-sm-6 col-md-4">
+                            <div class="thumbnail zoom">
+
+                                <a href="#/" class="img-thumb">
+                                    <figure>
+                                        <img src="@(string.IsNullOrWhiteSpace(element.ImagePath) ? "" : Url.Content(element.ImagePath))" class="attachment-charity_our_work wp-post-image" alt="blog-pic" width="263" height="175">
+                                    </figure>
+                                </a>
+                                <h3>@element.Title</h3>
+                                <p>
+                                    @element.Description<a class="more-link btn btn-default" role="button" href="@Url.Action("Project","Home")">READ MORE</a>
+                                </p>
+                            </div>
+                        </div>
+                    }
+
+                </div>
+            </div>
+        </section>
+
+    </div>
+  
+</div>

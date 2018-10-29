@@ -1,0 +1,131 @@
+﻿@using Amourss.Models.DBModels
+@using Amourss.Models.Common
+@{
+    ViewBag.Title = "Contact";
+    Setting st = ViewBag.Layout as Setting;
+}
+
+<div id="main">
+    <div id="map"></div>
+
+    <div class="content-wrapper container" id="page-info">
+        <div class="row">
+
+            <div class="col-xs-12 col-sm-6 contact-form">
+                @if (TempData["NotificationMessage"] != null)
+                    {
+                        NotificationMessage message = TempData["NotificationMessage"] as NotificationMessage;
+
+                    <div class="alert alert-success" role="alert">
+                        <strong>@message.Title</strong> @message.Description
+                    </div>
+
+
+                }
+
+                <h2>Send us Message</h2>
+                <div  lang="en-US" dir="ltr">
+                    <div class="screen-reader-response"></div>
+                    <form name="" action="@Url.Action("AddContact","Home")" method="post"  >
+                        <div class="row">
+                            <div class="form-group col-xs-12 col-sm-6">
+                                <label for="name">Name<span>*</span></label>
+                                <span class="wpcf7-form-control-wrap text-821">
+                                    <input type="text" name="Name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control"/>
+                                </span>
+                            </div>
+                            <div class="form-group col-xs-12 col-sm-6">
+                                <label for="email">Email<span>*</span></label>
+                                <span class="wpcf7-form-control-wrap email-959">
+                                    <input type="email" name="Email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email form-control" id="email" aria-required="true" aria-invalid="false" />
+                                </span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="sub">Subject<span>*</span></label><br />
+                            <span class="wpcf7-form-control-wrap text-674">
+                                <input type="text" name="Subject" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" id="sub" aria-required="true" aria-invalid="false" />
+                            </span>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <span class="wpcf7-form-control-wrap textarea-824">
+                                <textarea name="Message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea form-control" id="message" aria-invalid="false"></textarea>
+                            </span>
+                        </div>
+                        <p>
+                            <input type="submit" value="Submit" class="wpcf7-form-control wpcf7-submit btn btn-default" id="submit" />
+                        </p>
+                     
+                    </form>
+                </div>
+            </div>
+
+
+            <div class="col-xs-12 col-sm-5 col-sm-offset-1 contact-address">
+                <h2>Get in touch</h2>
+                <address>
+                    <span>
+                        <strong>Address :</strong> <span>
+                            @st.Address
+                            <br>
+                            @st.Location
+                        </span>
+                    </span>
+                    <span> <strong>E-Mail :</strong> <span><a href="mailto:@st.Email">@st.Email</a></span> </span>
+                    <span> <strong>Tel :</strong> <span><a href="tel:+17079217269">@st.Phone</a></span> </span>
+                    @*<span> <strong>Fax :</strong> <span>+1 206 973 7944</span> </span>*@
+                </address>
+                <p>&nbsp;</p>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<script type="text/javascript">
+
+    var map;
+    function initMap() {
+        var myLatLng = { lat: @st.Lat, lng: @st.Lng };
+
+        var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 15,
+            center: myLatLng
+        });
+     
+        addMarker(myLatLng, map);
+        google.maps.event.addDomListener(window, "resize", function () {
+            jQuery("#map").css("width", window.innerWidth);
+            jQuery("#map").css("height", "400");
+            var center = map.getCenter();
+            google.maps.event.trigger(map, "resize");
+            map.setCenter(center);
+        });
+    
+
+    }
+
+    function addMarker(location, map) {
+        console.log("Called");
+        var marker = new google.maps.Marker({
+            position: location,
+            title: 'Home Center',
+            map: map
+        });
+    }
+
+
+    jQuery(function () {
+        jQuery("#map").css("width", window.innerWidth);
+        jQuery("#map").css("height", "400");
+    });
+
+
+</script>
+
+
+
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCbZUwFdEjTihX11ogCFdFkN_FlyHlZ5TE&callback=initMap"></script>

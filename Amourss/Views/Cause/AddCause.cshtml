@@ -1,0 +1,120 @@
+﻿@model Amourss.Models.DBModels.Cause
+@{
+    ViewBag.Title = "AddCause";
+    Layout = "~/Views/Shared/_PanelLayout.cshtml";
+}
+
+<div class="content-header">
+    <div class="container-fluid">
+
+    </div>
+</div>
+
+<section class="content">
+    <div class="container-fluid">
+        <div class="card card-default">
+            <div class="card-header">
+                <h3 class="card-title">Add Project</h3>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-12">
+                        <form method="post" action="@Url.Action("AddCause","Cause")" enctype="multipart/form-data">
+                           <input type="hidden" name="ID" id="ID" value="@Model.ID">
+                            <div class="row">
+
+                                <div class="col-md-8">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label>Title</label>
+                                            <input type="text" class="form-control" id="Title" name="Title" value="@Model.Title" />
+                                        </div>
+                                        <!-- /.form-group -->
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label>Description</label>
+                                            <textarea class="form-control" id="Description" name="Description">@Model.Description</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label>Earning Goals</label>
+                                            <input type="text" name="EarningGoal" id="EarningGoal" class="form-control" value="@Model.EarningGoal" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label>Achieved Goals</label>
+                                            <input type="text" name="AchievedGoal" id="AchievedGoal" class="form-control" value="@Model.AchievedGoal" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <div class="form-group">
+                                                    <label>Feature Option</label>
+                                                    <select class="form-control" name="Featured">
+                                                        <option @(Model.Featured == 2 ? "selected" : "") value="2">Inside Crousel</option>
+                                                        <option @(Model.Featured == 1 ? "selected" : "") value="1">Under Crousel</option>
+                                                        <option @(Model.Featured == 0 ? "selected" : "") value="0">Hide</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="form-group">
+                                                    <label>Text Color</label>
+                                                    <select class="form-control" name="TextColor">
+                                                        <option @(Model.TextColor == "White" ? "selected" : "") value="White">White</option>
+                                                        <option @(Model.TextColor == "Black" ? "selected" : "") value="Black">Black</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="form-group">
+                                                    <label>Text Style</label>
+                                                    <select class="form-control" name="TextStyle">
+                                                        <option @(Model.TextStyle == "Normal" ? "selected" : "") value="Normal">Normal</option>
+                                                        <option @(Model.TextStyle == "Box" ? "selected" : "") value="Box">Box</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label>Cause Image</label><br>
+                                            <img src="@(string.IsNullOrWhiteSpace(Model.ImagePath)? "" : Url.Content(Model.ImagePath))" style="width:200px" id="CauseImage" /><br>
+                                            <input type="file" id="ImageFile" name="ImageFile" data-src="#CauseImage" />
+                                            <input type="hidden" value="@Model.ImagePath" name="ImagePath" />
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
+                                
+
+
+                            </div>
+
+
+                            <button class="btn btn-primary" type="submit" id="AddBtn">Add</button>
+                            <button class="btn btn-danger" type="button" id="CancelBtn" data-dismiss="modal">Cancel</button>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</section>
+
+
+

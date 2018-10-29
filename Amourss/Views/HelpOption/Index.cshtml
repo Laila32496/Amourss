@@ -1,0 +1,131 @@
+﻿@model List<Amourss.Models.DBModels.HelpOption>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_PanelLayout.cshtml";
+}
+
+<div class="content-header">
+    <div class="container-fluid">
+        @*<div class="row mb-2">
+            <div class="col-sm-6">
+                <h1 class="m-0 text-dark">HelpOptions</h1>
+            </div><!-- /.col -->
+        </div><!-- /.row -->*@
+    </div><!-- /.container-fluid -->
+</div>
+
+<section class="content">
+    <div class="container-fluid">
+        <div class="card card-default">
+            <div class="card-header">
+                <h3 class="card-title">HelpOption List</h3>
+                <div class="card-tools">
+                    <div class="pull-right">
+                        <button class="btn btn-primary" id="AddHelpOptionBtn" type="button">Add HelpOption</button>
+                    </div>
+                </div>
+                <br />
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-12">
+                        <table class="table table-striped datatable">
+                            <thead>
+                                <tr>
+                                    <th>Title</th>
+                                    <th>Description</th>
+                                    <th>Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var element in Model)
+                                {
+                                    <tr>
+                                        <td>@element.Title</td>
+                                        <td>@element.Description</td>
+                                        <td>
+                                            <form action="@Url.Action("Delete", "HelpOption")">
+                                                <input type="hidden" name="HelpOptionID" value="@element.ID">
+                                                <a class="DeleteHelpOptionBtn" href="#/"><i class="fa fa-trash"></i></a>
+                                            </form>
+                                        </td>
+                                    </tr>
+                                }
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="AddHelpOptionModal">
+        <div class="modal-dialog">
+            <form method="post" action="@Url.Action("AddHelpOption","HelpOption")" enctype="multipart/form-data">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4>Add HelpOption</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label>Title</label>
+                                    <input type="text" class="form-control" id="Title" name="Title" />
+                                </div>
+                                <!-- /.form-group -->
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label>Description</label>
+                                    <textarea class="form-control" id="Description" name="Description"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label>HelpOption Image</label><br>
+                                    <img src="" style="width:200px" id="HelpOptionImage" /><br>
+                                    <input type="file" id="ImageFile" name="ImageFile" data-src="#HelpOptionImage" />
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-primary" type="submit" id="AddBtn">Add</button>
+                        <button class="btn btn-danger" type="button" id="CancelBtn" data-dismiss="modal">Cancel</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</section>
+
+
+
+@section Scripts{
+
+    <script>
+        $("#AddHelpOptionBtn").click(function () {
+            $("#AddHelpOptionModal").modal("show");
+        });
+
+
+        $(".DeleteHelpOptionBtn").click(function () {
+            var el = this;
+            bootbox.confirm("Are your sure you want to delete this ?", function (result) {
+                if (result) {
+                    $(el).parents("form").submit();
+                }
+            });
+
+        });
+
+
+    </script>
+
+}
